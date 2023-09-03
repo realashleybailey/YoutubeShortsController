@@ -1,0 +1,21 @@
+{
+  "name": "Youtube Shorts Controller",
+  "description": "Youtube Shorts Controller to enable all the features of the Youtube player on Shorts videos",
+  "author": "Ashley Bailey",
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["youtube-shorts-controller-script.js"],
+      "matches": ["https://*.youtube.com/*"]
+    }
+  ],
+  "icons": {
+    "128": "images/icon128.png",
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png"
+  },
+  "update_url": "https://clients2.google.com/service/update2/crx"
+}
